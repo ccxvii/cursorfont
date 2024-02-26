@@ -4,3 +4,19 @@ This theme also adds symlinks for the new GNOME cursor names.
 
 Created to allow Firefox 123 and other Gtk 3 software to work without
 the Adwaita icon theme package.
+
+To enable, clone or copy this directory to ~/.icons.
+
+Add this to ~/.Xresources:
+
+	Xcursor.theme: cursorfont
+
+Add this to ~/.config/gtk-3.0/settings.ini and ~/.gtkrc-2.0:
+
+	gtk-cursor-theme-name=cursorfont
+
+And run this command:
+
+	gsettings set org.gnome.desktop.interface cursor-theme cursorfont
+
+Good luck!
