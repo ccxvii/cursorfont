@@ -1,0 +1,6 @@
+An X11 cursor theme based on the original X11 cursor font!
+
+This theme also adds symlinks for the new GNOME cursor names.
+
+Created to allow Firefox 123 and other Gtk 3 software to work without
+the Adwaita icon theme package.
