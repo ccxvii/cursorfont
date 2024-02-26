@@ -1,6 +1,7 @@
 #!/bin/bash
 
 rm -f raw/*.png
+mkdir -p raw
 gcc -Wall -o extract extract.c
 ./extract < cursor.bdf
 mogrify -format png raw/*.pam
